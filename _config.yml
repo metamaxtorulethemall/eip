@@ -1,0 +1,21 @@
+# Site settings
+title: KI-Agenten für Prozesse
+description: Automatisierung ohne Code – mit BPMN und KI
+baseurl: "" # Leer lassen, wenn die Seite unter [Nutzername].github.io läuft
+url: "https://[DeinGitHubNutzername].github.io"
+
+# Jekyll Theme
+remote_theme: avillachan/forty-jekyll-theme
+
+# Mermaid Support
+mermaid:
+  enable: true
+  version: "9.1.6" # Aktuelle Version
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-mermaid
+
+# Build settings
+markdown: kramdown
